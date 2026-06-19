@@ -1,3 +1,4 @@
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
@@ -101,4 +102,110 @@ body{
 .feature-box:hover{
     transform: translateY(-10px);
     border: 2px solid #c7ff00;
+}
+
+
+
+
+
+
+
+
+/* CONTACT PAGE */
+.contact-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.contact-header h1{
+    color: #c7ff00;
+    font-size: 40px;
+}
+
+.contact-form-section{
+    background-color: black;
+    padding: 20px 40px;
+}
+
+.contact-form-box{
+    background-color: #111;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.contact-form-box h2{
+    color: #c7ff00;
+    margin-bottom: 15px;
+}
+
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-box label{
+    color: white;
+    margin-bottom: 8px;
+}
+
+.input-box input,
+.input-box textarea{
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.send-btn{
+    background-color: #c7ff00;
+    color: black;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.send-btn:hover{
+    transform: translateY(-5px);
+    background-color: white;
+}
+
+/* GET IN TOUCH */
+
+.touch-section{
+    background-color: black;
+    padding: 15px;
+}
+
+.touch-section h2{
+    color: #c7ff00;
+    text-align: center;
+}
+
+.touch-container{
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+}
+
+.touch-card{
+    flex: 1;
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.touch-card:hover{
+    transform: translateY(-10px);
+    border: 1px solid #c7ff00;
+}
+
+.touch-card h3{
+    color: #c7ff00;
 }
