@@ -223,7 +223,6 @@ body{
 
 
 /* Programs page*/
-/* PROGRAMS PAGE */
 
 .program-header{
     background-color: black;
@@ -278,3 +277,150 @@ body{
     margin-bottom: 15px;
 }
 
+
+
+
+/* ABOUT HERO */
+
+.about-hero{
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.about-left{
+    flex: 1;
+}
+
+.about-right{
+    flex: 1;
+}
+
+.about-right img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.section-title{
+    color: #c7ff00;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-left h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.about-text{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* STATS SECTION */
+
+.stats-section{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    background-color: black;
+}
+
+.stats-card{
+    flex: 1;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.stats-card h2{
+    color: #c7ff00;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.stats-card:hover{
+    transform: translateY(-10px);
+    border: 2px solid #c7ff00;
+}
+
+
+/* MISSION SECTION */
+
+.mission-section{
+    background-color: black;
+    padding: 30px;
+}
+
+.mission-card{
+    display: flex;
+    gap: 40px;
+    background-color: #111;
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+}
+
+.mission-left{
+    flex: 1;
+}
+
+.mission-middle{
+    flex: 1;
+    border-left: 2px solid #333;
+    padding-left: 30px;
+}
+
+.mission-right{
+    flex: 1;
+    border-left: 2px solid #333;
+    padding-left: 30px;
+}
+
+.mission-left h3{
+    color: #c7ff00;
+    margin-bottom: 20px;
+}
+
+.mission-left h2{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.mission-middle p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.mission-right ul{
+    list-style: none;
+}
+
+.mission-right li{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+/* BUTTON */
+
+.join-btn{
+    background-color: #c7ff00;
+    color: black;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.join-btn:hover{
+    transform: translateY(-5px);
+}
