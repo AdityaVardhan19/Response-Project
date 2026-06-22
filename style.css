@@ -10,7 +10,6 @@ body{
 }
 
 /* Navbar */
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -47,11 +46,11 @@ body{
 }
 
 /* Hero Section */
-
 .hero-section{
     background-image: url("/images/gym\ interior\ 2.jpg");
-    background-size: 100% auto;
-    background-position: center top;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     color: white;
     min-height: 100vh;
@@ -64,9 +63,7 @@ body{
     color: #c7ff00;
 }
 
-
 /* Buttons */
-
 .buttons{
     display: flex;
     gap: 20px;
@@ -84,14 +81,12 @@ body{
     transition: 0.5s;
 }
 
-
 .join-btn:hover,
 .view-btn:hover{
     transform: translateY(-5px);
 }
 
 /* Feature Section */
-
 .feature{
     display: flex;
     gap: 20px;
@@ -115,12 +110,386 @@ body{
 }
 
 
+/* About us page info */
+.about-hero{
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.about-left{
+    flex: 1;
+}
+
+.about-right{
+    flex: 1;
+}
+
+.about-right img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.section-title{
+    color: #c7ff00;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-left h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.about-text{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* STATS SECTION */
+.stats-section{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    background-color: black;
+}
+
+.stats-card{
+    flex: 1;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.stats-card h2{
+    color: #c7ff00;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.stats-card:hover{
+    transform: translateY(-10px);
+    border: 2px solid #c7ff00;
+}
+
+/* MISSION SECTION */
+.mission-section{
+    background-color: black;
+    padding: 30px;
+}
+
+.mission-card{
+    display: flex;
+    gap: 40px;
+    background-color: #111;
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+}
+
+.mission-left{
+    flex: 1;
+}
+
+.mission-middle{
+    flex: 1;
+    border-left: 2px solid #333;
+    padding-left: 30px;
+}
+
+.mission-right{
+    flex: 1;
+    border-left: 2px solid #333;
+    padding-left: 30px;
+}
+
+.mission-left h3{
+    color: #c7ff00;
+    margin-bottom: 20px;
+}
+
+.mission-left h2{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.mission-middle p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.mission-right ul{
+    list-style: none;
+}
+
+.mission-right li{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+/* BUTTON */
+
+.join-community-btn{
+    background-color: #c7ff00;
+    color: black;
+    padding: 15px 25px;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+    
+
+.join-community-btn:hover{
+    transform: translateY(-5px);
+}
 
 
 
 
 
-/* CONTACT PAGE */
+
+/* Programs page info*/
+.program-header{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.program-header h1{
+    color: #c7ff00;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.programs{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
+}
+
+.program-card{
+    flex: 1 1 300px;
+    background-color:#111;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.program-card:hover{
+    transform: translateY(-10px);
+    border: 2px solid #c7ff00;
+}
+
+.program-card h2{
+    color: #c7ff00;
+    margin-bottom: 15px;
+}
+
+.program-fs{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.program-fs h2{
+    color: #c7ff00;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+/* Join Page info */
+
+.join-section{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.join-left{
+    flex: 1;
+}
+
+.join-tag{
+    color: #c7ff00;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.join-left h1{
+    color: white;
+    font-size: 55px;
+}
+
+.join-text{
+    color: white;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+
+/* FORM */
+
+.join-form-box{
+    flex: 1;
+    background-color: #111;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.join-form-box h2{
+    text-align: center;
+    color: #c7ff00;
+    margin-bottom: 25px;
+}
+
+.join-form-box label{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.join-form-box input,
+.join-form-box textarea,
+.join-form-box select{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.join-submit-btn{
+    width: 100%;
+    background-color: #c7ff00;
+    color: black;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.join-submit-btn:hover{
+    transform: translateY(-5px);
+}
+
+/* MEMBERSHIP SECTION */
+
+.membership-section{
+    background-color: black;
+    padding: 50px;
+}
+
+.membership-section h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.plan-container{
+    display: flex;
+    gap: 20px;
+}
+
+.plan-card{
+    flex: 1;
+    background-color: #111;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.plan-card:hover{
+    transform: translateY(-5px);
+    border: 2px solid #c7ff00;
+}
+
+.plan-card h1{
+    color: #c7ff00;
+    margin: 15px 0px;
+}
+
+.plan-card ul{
+    margin: 20px 0px;
+    padding-left: 20px;
+}
+
+.plan-card li{
+    margin-bottom: 10px;
+}
+
+.plan-card button{
+    width: 100%;
+    padding: 12px;
+    background-color: #c7ff00;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.help-card{
+    flex: 1;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.help-card h2{
+    color: #c7ff00;
+}
+
+.help-card button{
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid #c7ff00;
+    color: #c7ff00;
+    cursor: pointer;
+}
+
+.contact-submit-btn{
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid #c7ff00;
+    color: #c7ff00;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-submit-btn:hover{
+    background-color: #c7ff00;
+    color: black;
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+
+/* Contact page info*/
 .contact-header{
     background-color: black;
     color: white;
@@ -183,7 +552,6 @@ body{
 }
 
 /* GET IN TOUCH */
-
 .touch-section{
     background-color: black;
     padding: 15px;
@@ -220,207 +588,143 @@ body{
 }
 
 
+/* Media Queries*/
 
+/* Mobile view */
+@media (max-width:767px){
 
-/* Programs page*/
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-.program-header{
-    background-color: black;
-    text-align: center;
-    padding: 50px;
-    color: white;
-}
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+        width: 100%;
+        align-items: center;
+    }
 
-.program-header h1{
-    color: #c7ff00;
-    font-size: 40px;
-    margin-bottom: 15px;
-}
+    .hero-section{
+        padding: 60px 20px;
+        font-size: 18px;
+        text-align: center;
+        min-height: auto;
+    }
 
-.programs{
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    padding: 40px;
-}
+    .hero-section h1{
+        font-size: 35px;
+    }
 
-.program-card{
-    flex: 1 1 300px;
-    background-color:black;
-    color: white;
-    padding: 30px;
-    border-radius: 15px;
-    text-align: center;
-    transition: 0.5s;
-}
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+    }
 
-.program-card:hover{
-    transform: translateY(-10px);
-    border: 2px solid #c7ff00;
-}
+    .feature,
+    .about-hero,
+    .stats-section,
+    .join-section,
+    .touch-container,
+    .plan-container,
+    .mission-card{
+        flex-direction: column;
+    }
 
-.program-card h2{
-    color: #c7ff00;
-    margin-bottom: 15px;
-}
+    .mission-middle,
+    .mission-right{
+        border-left: none;
+        border-top: 2px solid #333;
+        padding-left: 0;
+        padding-top: 20px;
+    }
 
-.program-fs{
-    background-color: black;
-    text-align: center;
-    padding: 50px;
-    color: white;
-}
+    .programs{
+        flex-direction: column;
+    }
 
-.program-fs h2{
-    color: #c7ff00;
-    margin-bottom: 15px;
-}
+    .program-card{
+        flex: 1 1 100%;
+    }
 
+    .join-form-box{
+        width: 100%;
+    }
 
+    .plan-card,
+    .help-card{
+        width: 100%;
+    }
 
-
-/* ABOUT HERO */
-
-.about-hero{
-    display: flex;
-    gap: 40px;
-    padding: 50px;
-    background-color: black;
-    color: white;
-    align-items: center;
-}
-
-.about-left{
-    flex: 1;
-}
-
-.about-right{
-    flex: 1;
-}
-
-.about-right img{
-    width: 100%;
-    border-radius: 15px;
-}
-
-.section-title{
-    color: #c7ff00;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.about-left h1{
-    font-size: 50px;
-    margin-bottom: 10px;
-}
-
-.about-text{
-    margin-top: 20px;
-    font-size: 15px;
-}
-
-/* STATS SECTION */
-
-.stats-section{
-    display: flex;
-    gap: 20px;
-    padding: 30px;
-    background-color: black;
-}
-
-.stats-card{
-    flex: 1;
-    background-color: #111;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    border-radius: 15px;
-    transition: 0.5s;
-}
-
-.stats-card h2{
-    color: #c7ff00;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-.stats-card:hover{
-    transform: translateY(-10px);
-    border: 2px solid #c7ff00;
+    .about-left h1,
+    .join-left h1,
+    .mission-left h2{
+        font-size: 32px;
+    }
 }
 
 
-/* MISSION SECTION */
+/* Tablet view */
+@media (min-width:768px) and (max-width:1023px){
 
-.mission-section{
-    background-color: black;
-    padding: 30px;
+    .about-hero,
+    .join-section{
+        flex-direction: column;
+    }
+
+    .feature,
+    .stats-section,
+    .touch-container,
+    .plan-container{
+        flex-wrap: wrap;
+    }
+
+    .feature-box,
+    .stats-card,
+    .touch-card,
+    .plan-card{
+        flex: 1 1 45%;
+    }
+
+    .help-card{
+        flex: 1 1 100%;
+    }
+
+    .mission-card{
+        flex-direction: column;
+    }
+
+    .mission-middle,
+    .mission-right{
+        border-left: none;
+        border-top: 2px solid #333;
+        padding-left: 0;
+        padding-top: 20px;
+    }
 }
 
-.mission-card{
-    display: flex;
-    gap: 40px;
-    background-color: #111;
-    padding: 40px;
-    border-radius: 15px;
-    color: white;
+
+/* Laptop view */
+@media (min-width:1024px) and (max-width:1279px){
+
+    .hero-section{
+        font-size: 22px;
+    }
+
+    .hero-section h1{
+        font-size: 60px;
+    }
 }
 
-.mission-left{
-    flex: 1;
-}
 
-.mission-middle{
-    flex: 1;
-    border-left: 2px solid #333;
-    padding-left: 30px;
-}
 
-.mission-right{
-    flex: 1;
-    border-left: 2px solid #333;
-    padding-left: 30px;
-}
 
-.mission-left h3{
-    color: #c7ff00;
-    margin-bottom: 20px;
-}
 
-.mission-left h2{
-    font-size: 45px;
-    margin-bottom: 10px;
-}
 
-.mission-middle p{
-    line-height: 1.5;
-    font-size: 20px;
-}
 
-.mission-right ul{
-    list-style: none;
-}
 
-.mission-right li{
-    margin-bottom: 25px;
-    font-size: 20px;
-}
 
-/* BUTTON */
 
-.join-btn{
-    background-color: #c7ff00;
-    color: black;
-    border: none;
-    padding: 15px 25px;
-    margin-top: 25px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-}
 
-.join-btn:hover{
-    transform: translateY(-5px);
-}
